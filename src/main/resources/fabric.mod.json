@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "noexplosiongrief",
+  "version": "${version}",
+  "name": "NoExplosionGrief",
+  "description": "Disable Creeper & Ghast Explosion Block Damage",
+  "authors": [
+    "KaseToatz"
+  ],
+  "contact": {
+    "website": "https://kasetoatz.com/",
+    "repo": "https://github.com/KaseToatz1337/NoExplosionGrief"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "noexplosiongrief.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
