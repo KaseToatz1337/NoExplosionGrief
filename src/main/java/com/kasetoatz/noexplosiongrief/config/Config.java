@@ -42,6 +42,7 @@ public class Config {
             {
                 blockWither = json.get("blockWither").getAsBoolean();
             }
+            save();
         }
         catch (IOException exc)
         {

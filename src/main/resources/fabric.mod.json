@@ -14,7 +14,9 @@
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": []
+    "main": [
+      "com.kasetoatz.noexplosiongrief.NoExplosionGrief"
+    ]
   },
   "mixins": [
     "noexplosiongrief.mixins.json"
